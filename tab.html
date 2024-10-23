@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabulky</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <!-- navigační bar -->
+
+    <nav id="navbar">
+        <a href="index.html">
+            <h1>MTB <i class="fa-solid fa-bicycle"></i></h1>
+        </a>
+        <ul>
+            <li><a href="index.html"><i class="fa-solid fa-house"></i> home</a></li>
+            <li><a href="araces"><i class="fa-solid fa-flag-checkered"></i> závody</a></li>
+            <li><a href="areview"><i class="fa-solid fa-magnifying-glass"></i> recenze</a></li>
+            <li><a href="anews"><i class="fa-regular fa-newspaper"></i> novinky</a></li>
+            <li><a href="#"><i class="fa-solid fa-code-compare"> tabulky</i></a></li>
+        </ul>
+    </nav>
+
+
+    <!-- Tabulky -->
+    <section id="tab">
+        <div class="container">
+            <h2 class="m-heading text-center">Tabulky</h2>
+            <p class="text-center">Jak jsme psali v ůvodu. Zde je porovnání biků v dáné kategorii.</p>
+
+
+            <table class="my-table text-center">
+                <tr class="py-1">
+                    <th colspan="9">TOP TRAIL</th>
+                </tr>
+                
+                <tr class="title">
+                    <td>značka</td>
+                    <td>model</td>
+                    <td>vidlice</td>
+                    <td>tlumič</td>
+                    <td>pohon</td>
+                    <td>rám</td>
+                    <td>brzdy</td>
+                    <td>cena</td>
+                    <td>váha</td>
+                </tr>
+                <tr>
+                    <td>Trek</td>
+                    <td>Fuel EX</td>
+                    <td>Fox Factory 36, 140mm travel</td>
+                    <td>Fox Factory Float X,</td>
+                    <td>SRAM XX Eagle AXS</td>
+                    <td>carbon</td>
+                    <td>SRAM Maven Ultimate</td>
+                    <td>314 990 kč</td>
+                    <td>14.48 kg</td>
+                </tr>
+                <tr>
+                    <td>Canyon</td>
+                    <td>Neuron CF LTD </td>
+                    <td>FOX 34 Factory 29 Grip2, 140 mm travel</td>
+                    <td>FOX Float DPS Factory</td>
+                    <td>SRAM X0 Eagle AXS</td>
+                    <td>carbon</td>
+                    <td>SRAM Code Ultimate Stealth</td>
+                    <td>156 700 kč</td>
+                    <td>12.88 kg</td>
+                </tr>
+                <tr>
+                    <td>KTM</td>
+                    <td>Scarp MT Exonic</td>
+                    <td>FOX 34 Float SC 29" Factory 120mm remote 15x110</td>
+                    <td>FOX Float DPS Factory remote</td>
+                    <td>SRAM XX1 AXS</td>
+                    <td>carbon</td>
+                    <td>Shimano XTR M9100 / M9100 2-Piston</td>
+                    <td>256 184 kč</td>
+                    <td>9,70 kg</td>
+        
+                </tr>
+                <tr>
+                    <td>Santa Cruz</td>
+                    <td>Hightower XX AXS RSV</td>
+                    <td>RockShox Super Deluxe Ultimate, 145 mm travel</td>
+                    <td>RockShox Lyrik Ultimate</td>
+                    <td>SRAM XX Eagle AXS T-Type</td>
+                    <td>carbon cc</td>
+                    <td>Sram Code Ultimate Stealth</td>
+                    <td>249 479 kč</td>
+                    <td>13,79 kg</td>
+                </tr>
+                <tr>
+                    <td>Nukeproof</td>
+                    <td>Reactor 290</td>
+                    <td>RockShox Lyrik Ultimate Charger 3, 150 mm travel</td>
+                    <td>RockShox Super Deluxe Ultimate</td>
+                    <td>SRAM AXS Eagle, 12-Speed,</td>
+                    <td>carbon</td>
+                    <td>SRAM Code RSC Sintered Pads</td>
+                    <td>187 579 kč</td>
+                    <td>---</td>
+                </tr>
+            </table>
+            
+        
+
+        </div>
+    </section>
+
+    <section id="formular" class="bg-blue">
+        <div class="container">
+            <H2 class="m-heading text-center">Feedback</H2>
+            <form action="feedback" class="text-center">
+                <fieldset>
+                    <legend>Vaše informace</legend>
+            
+                    <label for="fname">Jméno:</label>
+                    <input type="text" id="fname" name="fname"><br><br>
+            
+                    <label for="lname">Příjmení:</label>
+                    <input type="text" id="lname" name="lname"><br><br>
+                </fieldset>
+            
+                <fieldset>
+                    <legend class="text-center">Váš pocit</legend>
+            
+                    <label for="fback">Volby:</label><br><br>
+                    <input type="radio" id="smile" name="fback" value="smile">
+                    <label for="smile"><i class="fa-regular fa-face-smile fa-xl" style="color: #11ff00;"></i></label>
+            
+                    <input type="radio" id="mid" name="fback" value="mid">
+                    <label for="mid"><i class="fa-regular fa-face-meh fa-xl" style="color: #ffa200;"></i></label>
+            
+                    <input type="radio" id="angry" name="fback" value="angry">
+                    <label for="angry"><i class="fa-regular fa-face-angry fa-xl" style="color: #ff0000;"></i></label><br><br>
+                </fieldset>
+            
+                <fieldset>
+                    <legend class="text-center">Zpráva pro nás</legend>
+            
+                    <label for="us">Něco pro nás?</label><br>
+                    <textarea id="popis" name="textarea" rows="3" cols="30"></textarea><br><br>
+                </fieldset>
+            
+                <input type="submit" value="Odeslat">
+            </form>
+            
+        </div>
+    </section>
+
+</body>
+</html>
