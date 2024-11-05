@@ -1,18 +1,15 @@
 #icons .items {
     display: flex;
-    flex-direction: space-around;
-    align-items: center;
+    justify-content: space-around;
+    gap: 3rem;
 }
-
 #icons .items .item {
-    display: flex;
-    flex-direction: space-around;
-    align-items: center;
-    margin: 1rem 0;
+    flex: 1;
+    text-align: center;
 }
 
 #icons .items .item i {
-    font-size: 2rem;
-    margin-bottom: 0.5rem;
-     }
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
 
