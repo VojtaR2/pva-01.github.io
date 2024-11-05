@@ -1,8 +1,31 @@
+/* Navigační menu */
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+#navbar ul {
+    display: flex;
+    gap: 2rem;
+}
+
+/*  showcase */
+#showcase .showcase-content {
+    max-width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+/* Ikony a jejich rozmístění */
 #icons .items {
     display: flex;
     justify-content: space-around;
     gap: 3rem;
 }
+
 #icons .items .item {
     flex: 1;
     text-align: center;
@@ -13,3 +36,21 @@
     margin-bottom: 1rem;
 }
 
+/* Obrázky */
+#ukazka .items {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+#ukazka .items img {
+    max-width: 40%;
+    height: auto;
+}
+
+/* Patička */
+#footer {
+    padding: 2rem;
+    font-size: 1rem;
+    text-align: center;
+}
